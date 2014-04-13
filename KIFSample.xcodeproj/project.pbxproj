@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C00FA0F18F50994002F08FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA0E18F50994002F08FD /* Foundation.framework */; };
+		5C00FA1118F50994002F08FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA1018F50994002F08FD /* CoreGraphics.framework */; };
+		5C00FA1318F50994002F08FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA1218F50994002F08FD /* UIKit.framework */; };
+		5C00FA1918F50994002F08FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C00FA1718F50994002F08FD /* InfoPlist.strings */; };
+		5C00FA1B18F50994002F08FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00FA1A18F50994002F08FD /* main.m */; };
+		5C00FA1F18F50994002F08FD /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00FA1E18F50994002F08FD /* KSAppDelegate.m */; };
+		5C00FA2518F50994002F08FD /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00FA2418F50994002F08FD /* KSViewController.m */; };
+		5C00FA2718F50994002F08FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C00FA2618F50994002F08FD /* Images.xcassets */; };
+		5C00FA2E18F50994002F08FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA2D18F50994002F08FD /* XCTest.framework */; };
+		5C00FA2F18F50994002F08FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA0E18F50994002F08FD /* Foundation.framework */; };
+		5C00FA3018F50994002F08FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA1218F50994002F08FD /* UIKit.framework */; };
+		5C00FA3818F50994002F08FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C00FA3618F50994002F08FD /* InfoPlist.strings */; };
+		5C00FA3A18F50994002F08FD /* KIFSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00FA3918F50994002F08FD /* KIFSampleTests.m */; };
+		5C00FA4818F509C2002F08FD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA2D18F50994002F08FD /* XCTest.framework */; };
+		5C00FA4918F509C2002F08FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA0E18F50994002F08FD /* Foundation.framework */; };
+		5C00FA4A18F509C2002F08FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C00FA1218F50994002F08FD /* UIKit.framework */; };
+		5C00FA5018F509C2002F08FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C00FA4E18F509C2002F08FD /* InfoPlist.strings */; };
+		5C00FA5B18F50A10002F08FD /* KSTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00FA5A18F50A10002F08FD /* KSTestController.m */; };
+		9FB528D874E14FEC90D5F739 /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7435F681B01B4296A0CE27B8 /* libPods-Acceptance Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C00FA3118F50994002F08FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C00FA0318F50994002F08FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C00FA0A18F50994002F08FD;
+			remoteInfo = KIFSample;
+		};
+		5C00FA5418F509C2002F08FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C00FA0318F50994002F08FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C00FA0A18F50994002F08FD;
+			remoteInfo = KIFSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C00FA0B18F50994002F08FD /* KIFSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C00FA0E18F50994002F08FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C00FA1018F50994002F08FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C00FA1218F50994002F08FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C00FA1618F50994002F08FD /* KIFSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIFSample-Info.plist"; sourceTree = "<group>"; };
+		5C00FA1818F50994002F08FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C00FA1A18F50994002F08FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C00FA1C18F50994002F08FD /* KIFSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIFSample-Prefix.pch"; sourceTree = "<group>"; };
+		5C00FA1D18F50994002F08FD /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		5C00FA1E18F50994002F08FD /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		5C00FA2318F50994002F08FD /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		5C00FA2418F50994002F08FD /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		5C00FA2618F50994002F08FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C00FA2C18F50994002F08FD /* KIFSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C00FA2D18F50994002F08FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5C00FA3518F50994002F08FD /* KIFSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIFSampleTests-Info.plist"; sourceTree = "<group>"; };
+		5C00FA3718F50994002F08FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C00FA3918F50994002F08FD /* KIFSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFSampleTests.m; sourceTree = "<group>"; };
+		5C00FA4718F509C2002F08FD /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C00FA4D18F509C2002F08FD /* Acceptance Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceptance Tests-Info.plist"; sourceTree = "<group>"; };
+		5C00FA4F18F509C2002F08FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C00FA5318F509C2002F08FD /* Acceptance Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acceptance Tests-Prefix.pch"; sourceTree = "<group>"; };
+		5C00FA5918F50A10002F08FD /* KSTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTestController.h; sourceTree = "<group>"; };
+		5C00FA5A18F50A10002F08FD /* KSTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSTestController.m; sourceTree = "<group>"; };
+		7435F681B01B4296A0CE27B8 /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA8D7D5E9C84D40BE3DE9F4 /* Pods-Acceptance Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.xcconfig"; path = "Pods/Pods-Acceptance Tests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C00FA0818F50994002F08FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA1118F50994002F08FD /* CoreGraphics.framework in Frameworks */,
+				5C00FA1318F50994002F08FD /* UIKit.framework in Frameworks */,
+				5C00FA0F18F50994002F08FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C00FA2918F50994002F08FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA2E18F50994002F08FD /* XCTest.framework in Frameworks */,
+				5C00FA3018F50994002F08FD /* UIKit.framework in Frameworks */,
+				5C00FA2F18F50994002F08FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C00FA4418F509C2002F08FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA4818F509C2002F08FD /* XCTest.framework in Frameworks */,
+				5C00FA4A18F509C2002F08FD /* UIKit.framework in Frameworks */,
+				5C00FA4918F509C2002F08FD /* Foundation.framework in Frameworks */,
+				9FB528D874E14FEC90D5F739 /* libPods-Acceptance Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C00FA0218F50994002F08FD = {
+			isa = PBXGroup;
+			children = (
+				5C00FA1418F50994002F08FD /* KIFSample */,
+				5C00FA3318F50994002F08FD /* KIFSampleTests */,
+				5C00FA4B18F509C2002F08FD /* Acceptance Tests */,
+				5C00FA0D18F50994002F08FD /* Frameworks */,
+				5C00FA0C18F50994002F08FD /* Products */,
+				7BA8D7D5E9C84D40BE3DE9F4 /* Pods-Acceptance Tests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		5C00FA0C18F50994002F08FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA0B18F50994002F08FD /* KIFSample.app */,
+				5C00FA2C18F50994002F08FD /* KIFSampleTests.xctest */,
+				5C00FA4718F509C2002F08FD /* Acceptance Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C00FA0D18F50994002F08FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA0E18F50994002F08FD /* Foundation.framework */,
+				5C00FA1018F50994002F08FD /* CoreGraphics.framework */,
+				5C00FA1218F50994002F08FD /* UIKit.framework */,
+				5C00FA2D18F50994002F08FD /* XCTest.framework */,
+				7435F681B01B4296A0CE27B8 /* libPods-Acceptance Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C00FA1418F50994002F08FD /* KIFSample */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA1D18F50994002F08FD /* KSAppDelegate.h */,
+				5C00FA1E18F50994002F08FD /* KSAppDelegate.m */,
+				5C00FA2318F50994002F08FD /* KSViewController.h */,
+				5C00FA2418F50994002F08FD /* KSViewController.m */,
+				5C00FA2618F50994002F08FD /* Images.xcassets */,
+				5C00FA1518F50994002F08FD /* Supporting Files */,
+			);
+			path = KIFSample;
+			sourceTree = "<group>";
+		};
+		5C00FA1518F50994002F08FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA1618F50994002F08FD /* KIFSample-Info.plist */,
+				5C00FA1718F50994002F08FD /* InfoPlist.strings */,
+				5C00FA1A18F50994002F08FD /* main.m */,
+				5C00FA1C18F50994002F08FD /* KIFSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C00FA3318F50994002F08FD /* KIFSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA3918F50994002F08FD /* KIFSampleTests.m */,
+				5C00FA3418F50994002F08FD /* Supporting Files */,
+			);
+			path = KIFSampleTests;
+			sourceTree = "<group>";
+		};
+		5C00FA3418F50994002F08FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA3518F50994002F08FD /* KIFSampleTests-Info.plist */,
+				5C00FA3618F50994002F08FD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C00FA4B18F509C2002F08FD /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA4C18F509C2002F08FD /* Supporting Files */,
+				5C00FA5918F50A10002F08FD /* KSTestController.h */,
+				5C00FA5A18F50A10002F08FD /* KSTestController.m */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		5C00FA4C18F509C2002F08FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C00FA4D18F509C2002F08FD /* Acceptance Tests-Info.plist */,
+				5C00FA4E18F509C2002F08FD /* InfoPlist.strings */,
+				5C00FA5318F509C2002F08FD /* Acceptance Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C00FA0A18F50994002F08FD /* KIFSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C00FA3D18F50994002F08FD /* Build configuration list for PBXNativeTarget "KIFSample" */;
+			buildPhases = (
+				5C00FA0718F50994002F08FD /* Sources */,
+				5C00FA0818F50994002F08FD /* Frameworks */,
+				5C00FA0918F50994002F08FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIFSample;
+			productName = KIFSample;
+			productReference = 5C00FA0B18F50994002F08FD /* KIFSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C00FA2B18F50994002F08FD /* KIFSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C00FA4018F50994002F08FD /* Build configuration list for PBXNativeTarget "KIFSampleTests" */;
+			buildPhases = (
+				5C00FA2818F50994002F08FD /* Sources */,
+				5C00FA2918F50994002F08FD /* Frameworks */,
+				5C00FA2A18F50994002F08FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C00FA3218F50994002F08FD /* PBXTargetDependency */,
+			);
+			name = KIFSampleTests;
+			productName = KIFSampleTests;
+			productReference = 5C00FA2C18F50994002F08FD /* KIFSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C00FA4618F509C2002F08FD /* Acceptance Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C00FA5618F509C2002F08FD /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildPhases = (
+				847059D1E7BF4C148D5523E8 /* Check Pods Manifest.lock */,
+				5C00FA4318F509C2002F08FD /* Sources */,
+				5C00FA4418F509C2002F08FD /* Frameworks */,
+				5C00FA4518F509C2002F08FD /* Resources */,
+				A7E5995303154D2CB54D7EB3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C00FA5518F509C2002F08FD /* PBXTargetDependency */,
+			);
+			name = "Acceptance Tests";
+			productName = "Acceptance Tests";
+			productReference = 5C00FA4718F509C2002F08FD /* Acceptance Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C00FA0318F50994002F08FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "比留間 和也";
+				TargetAttributes = {
+					5C00FA2B18F50994002F08FD = {
+						TestTargetID = 5C00FA0A18F50994002F08FD;
+					};
+					5C00FA4618F509C2002F08FD = {
+						TestTargetID = 5C00FA0A18F50994002F08FD;
+					};
+				};
+			};
+			buildConfigurationList = 5C00FA0618F50994002F08FD /* Build configuration list for PBXProject "KIFSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C00FA0218F50994002F08FD;
+			productRefGroup = 5C00FA0C18F50994002F08FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C00FA0A18F50994002F08FD /* KIFSample */,
+				5C00FA2B18F50994002F08FD /* KIFSampleTests */,
+				5C00FA4618F509C2002F08FD /* Acceptance Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C00FA0918F50994002F08FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA2718F50994002F08FD /* Images.xcassets in Resources */,
+				5C00FA1918F50994002F08FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C00FA2A18F50994002F08FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA3818F50994002F08FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C00FA4518F509C2002F08FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA5018F509C2002F08FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		847059D1E7BF4C148D5523E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E5995303154D2CB54D7EB3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Acceptance Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C00FA0718F50994002F08FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA2518F50994002F08FD /* KSViewController.m in Sources */,
+				5C00FA1F18F50994002F08FD /* KSAppDelegate.m in Sources */,
+				5C00FA1B18F50994002F08FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C00FA2818F50994002F08FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA3A18F50994002F08FD /* KIFSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C00FA4318F509C2002F08FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C00FA5B18F50A10002F08FD /* KSTestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C00FA3218F50994002F08FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C00FA0A18F50994002F08FD /* KIFSample */;
+			targetProxy = 5C00FA3118F50994002F08FD /* PBXContainerItemProxy */;
+		};
+		5C00FA5518F509C2002F08FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C00FA0A18F50994002F08FD /* KIFSample */;
+			targetProxy = 5C00FA5418F509C2002F08FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C00FA1718F50994002F08FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C00FA1818F50994002F08FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C00FA3618F50994002F08FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C00FA3718F50994002F08FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C00FA4E18F509C2002F08FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C00FA4F18F509C2002F08FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C00FA3B18F50994002F08FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C00FA3C18F50994002F08FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C00FA3E18F50994002F08FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFSample/KIFSample-Prefix.pch";
+				INFOPLIST_FILE = "KIFSample/KIFSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C00FA3F18F50994002F08FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFSample/KIFSample-Prefix.pch";
+				INFOPLIST_FILE = "KIFSample/KIFSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5C00FA4118F50994002F08FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFSample.app/KIFSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFSample/KIFSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KIFSampleTests/KIFSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5C00FA4218F50994002F08FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFSample.app/KIFSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFSample/KIFSample-Prefix.pch";
+				INFOPLIST_FILE = "KIFSampleTests/KIFSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5C00FA5718F509C2002F08FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA8D7D5E9C84D40BE3DE9F4 /* Pods-Acceptance Tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFSample.app/KIFSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5C00FA5818F509C2002F08FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA8D7D5E9C84D40BE3DE9F4 /* Pods-Acceptance Tests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFSample.app/KIFSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C00FA0618F50994002F08FD /* Build configuration list for PBXProject "KIFSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C00FA3B18F50994002F08FD /* Debug */,
+				5C00FA3C18F50994002F08FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C00FA3D18F50994002F08FD /* Build configuration list for PBXNativeTarget "KIFSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C00FA3E18F50994002F08FD /* Debug */,
+				5C00FA3F18F50994002F08FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C00FA4018F50994002F08FD /* Build configuration list for PBXNativeTarget "KIFSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C00FA4118F50994002F08FD /* Debug */,
+				5C00FA4218F50994002F08FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C00FA5618F509C2002F08FD /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C00FA5718F509C2002F08FD /* Debug */,
+				5C00FA5818F509C2002F08FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C00FA0318F50994002F08FD /* Project object */;
+}
